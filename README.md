@@ -1,4 +1,4 @@
-This repository is my hands-on experience with GPU and CUDA. The main goal of this project is to understand how to optimize CUDA kernels by combining ideas from research papers, blog posts, and open-source samples.
+This repository is my theoretical and hands-on experience with GPU and CUDA. The main goal of this project is to understand how to optimize CUDA kernels by combining ideas from research papers, blog posts, and open-source samples.
 
 The focus starts with General Matrix Multiplication (GEMM) — a core operation in both HPC and deep learning — because optimizing GEMM covers most of the key strategies needed for GPU programming. From there, I extended the ideas to other kernels like reduction, softmax, and matrix transpose.
 
