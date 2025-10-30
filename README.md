@@ -1,10 +1,10 @@
-This repository is my theoretical and hands-on experience with GPU and CUDA. The main goal of this project is to understand how to optimize CUDA kernels by combining ideas from research papers, blog posts, and open-source samples.
+This repository documents my study on GPU and CUDA programming. The main goal is to understand how to optimize CUDA kernels via combining ideas from research papers, blog posts, and open-source samples.
 
-The focus starts with General Matrix Multiplication (GEMM) — a core operation in both HPC and deep learning — because optimizing GEMM covers most of the key strategies needed for GPU programming. From there, I extended the ideas to other kernels like reduction, softmax, and matrix transpose.
+It starts with General Matrix Multiplication (GEMM) — a core operation in both HPC and deep learning — because optimizing GEMM covers most of the key strategies needed for GPU programming. From there, extend the ideas to other kernels like reduction, softmax, and matrix transpose.
 
-The key philosophy I took away: high-performance GPU programming is all about managing data movement — from global memory → shared memory → registers — to keep compute units busy and hide latency.
+High-performance GPU programming is all about managing data movement — from global memory → shared memory → registers — to keep compute units busy and hide latency.
 
-My environment, on colab:
+The environment, on colab:
 
 - CUDA Driver = CUDART
 
